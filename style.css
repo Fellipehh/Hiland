@@ -1,0 +1,93 @@
+* { padding: 0;
+margin:0;
+text-decoration: none; }
+
+@font-face { font-family: "hagrid-light";
+src: url("/storage/0403-0201/projetob/hagrid-light.ttf");
+    
+    font-family:"neue-machina";
+    src: url("/storage/0403-0201/projetob/neue-machina.otf");
+}
+@font-face { font-family: "aileron-regular";
+    src: url("/storage/0403-0201/projetob/aileron-regular.otf");}
+
+
+.bg { background-color:#07056b; }
+
+
+
+#cab { display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+#cab img { height: 50px;}
+
+#cab nav { display: flex; 
+gap: 40px;
+    padding: 30px;
+    display: flex;
+  
+}
+ #cab nav a { color: #FFFFFF;
+ text-decoration: none;}
+ 
+ main{display: flex;
+ align-items: center;
+ flex-direction: row;
+ padding: 60px;
+ border-top: 0.5px solid #FFFFFF;
+ justify-content: space-between;
+ }
+ 
+ #prin div { display: flex;
+     flex-direction: column;
+ gap: 10px;
+ }
+ 
+ #prin h1 { font-family: "hagrid-light" ;
+ font-weight: normal;
+ font-size: 75px;
+ color: #FFFFFF;
+ }
+ #prin p { color: #FFFFFF;
+     font-family: "neue-machina";
+     margin: 0px;
+     font-size: 20px;
+ }
+ 
+ 
+ .hibot { color: #5ee7ff;}
+ 
+ #prin div { color: #FFFFFF;}
+ 
+ img { height:200px;}
+ 
+ button { background-color: #07056b ;
+     border-radius: 35px;
+     border: 0.5px solid  #FFFFFF;
+padding: 10px 15px;
+color: #FFFFFF;
+font-family: "aileron-regular";
+     letter-spacing: 2px;
+     font-size: 15px;
+     
+ }
+ button:hover { background-color: #FFFFFF;
+     color:#07056b;
+ }
+ 
+ 
+ .fim { border-top: 0.3px solid #FFFFFF;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 7px;
+ }
+ 
+ .fim p { color: #FFEF1A;
+ font-size: 70px;
+ font-family: "aileron-regular";
+ font-weight: normal;
+ }

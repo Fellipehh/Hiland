@@ -3,13 +3,13 @@ margin:0;
 text-decoration: none; }
 
 @font-face { font-family: "hagrid-light";
-src: url("/storage/0403-0201/projetob/hagrid-light.ttf");
+src: url("/hagrid-light.ttf");
     
     font-family:"neue-machina";
-    src: url("/storage/0403-0201/projetob/neue-machina.otf");
+    src: url("/neue-machina.otf");
 }
 @font-face { font-family: "aileron-regular";
-    src: url("/storage/0403-0201/projetob/aileron-regular.otf");}
+    src: url("/aileron-regular.otf");}
 
 
 .bg { background-color:#07056b; }
